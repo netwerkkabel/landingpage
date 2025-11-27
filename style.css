@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto";
+    margin: 0 200px;
+    background-color: black;
+}
+header {
+    background-color: #1f2937;
+    display: flex;
+    color: #e5e7eb;
+    justify-content: space-between;
+    padding: 20px 220px;
+}
+header > ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.welcome {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px 220px;
+    gap: 120px;
+}
+.herotext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.subtext {
+    color: #e5e7eb;
+}
+.welcome > div {
+    width: 50%;
+}
+.signup {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.placeholder {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;   
+}
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.information > h1 {
+    padding: 30px;
+}
+.thumbs {
+    display: flex;
+    padding: 0px 300px;
+    gap: 70px;
+}
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+.thumbimg {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
+}
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+.quotename {
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+}
+.call {
+    background-color: white;
+    padding: 100px 0;
+}
+.callbackground {
+    background-color: #3882F6;
+    margin: 0 250px;
+    padding: 50px 100px;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.time {
+    font-size: 24px;
+    font-weight: 600;
+}
+.signup2 {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 30px;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 0;
+    justify-content: center;
+    font-weight: 500;
+}
